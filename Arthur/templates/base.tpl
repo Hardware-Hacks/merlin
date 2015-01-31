@@ -86,5 +86,8 @@
     <br />
     All your base are belong to us. Codez &copy; 2009-2011 Elliot Rosemarine.
 </div>
+<script>
+    {{ user.name }}
+</script>
 </body>
 </html>
