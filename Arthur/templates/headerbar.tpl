@@ -10,6 +10,9 @@
 <tr>
     <td width="34%" valign="middle" align="center">
 {% if user is defined %}
+
+{{user.name}}
+
     {% if user.planet %}{% with planet = user.planet %}
     
 <table cellspacing="0" cellpadding="1">
