@@ -11,7 +11,7 @@
     <td width="34%" valign="middle" align="center">
 {% if user is defined %}
 
-{{user.name}}
+{{ user.name }}
 
     {% if user.planet %}{% with planet = user.planet %}
     
